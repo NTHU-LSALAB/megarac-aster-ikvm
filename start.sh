@@ -56,5 +56,5 @@ docker run --rm \
     -e BMC_PASS=${BMC_PASS} \
     ${MOUNT_ARG} \
     ${PORT_ARG} \
-    megarac-aster-ikvm
+    ghcr.io/nthu-lsalab/megarac-aster-ikvm:latest
 

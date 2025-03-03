@@ -4,12 +4,6 @@ This Docker image allows you to run the MegaRAC Aster BMC Java iKVM Viewer in a 
 
 The iKVM viewer could be accessed via the Web UI or VNC, with the help of [baseimage-gui](https://github.com/jlesage/docker-baseimage-gui).
 
-## Building the Docker Image
-
-```bash
-docker build ./docker -t megarac-aster-ikvm
-```
-
 ## Usage
 
 ### Configuration
@@ -35,7 +29,7 @@ docker run --rm \
     -p 5800:5800 \
     -p 5900:5900 \
     -v ./iso:/iso \
-    megarac-aster-ikvm
+    ghcr.io/nthu-lsalab/megarac-aster-ikvm:latest
 ```
 
 The Web UI will be available at `http://localhost:5800/`, and the VNC server will be available at `localhost:5900`.
