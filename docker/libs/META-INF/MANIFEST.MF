@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0 (Sun Microsystems Inc.)
+
+Name: libjavafloppywrapper.so
+SHA1-Digest: dBaoJ/DwHwLrXsPnE1HyROequQs=
+
+Name: libjavacdromwrapper.so
+SHA1-Digest: MLpMOObeTrNFpx5NEay5dVBEx0M=
+
